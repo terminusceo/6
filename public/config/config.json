@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xf1BE5fad97bF59315AA0DA371ad08C73006499ea",
+  "SCAN_LINK": "https://etherscan.io/address/0xf1BE5fad97bF59315AA0DA371ad08C73006499ea",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Mind Maze by Easel",
+  "SYMBOL": "MAZE",
+  "MAX_SUPPLY": 1111,
+  "WEI_COST": 77000000000000000,
+  "DISPLAY_COST": 0.07700000,
+  "GAS_LIMIT": 140000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/mind-maze-by-easel",
+  "SHOW_BACKGROUND": true
+}
