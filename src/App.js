@@ -201,7 +201,7 @@ function App() {
 
   useEffect(() => {
     // Calculate the time remaining in the timer
-    const endTime = new Date("2022-12-21T10:30:00Z");
+    const endTime = new Date("2022-12-21T22:00:00Z");
     const timeRemaining = endTime - new Date();
 
     // Set the initial time remaining
@@ -273,7 +273,26 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              PUBLIC MINT OPEN
+              PUBLIC MINT OPEN in:
+            </s.TextDescription>
+
+
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 70,
+                //fontWeight: "bold",
+                color: "var(--primary)",
+              }}
+            >
+              {truncate(
+                new Date(timeRemaining).toLocaleString("en-GB", {
+                  hour: "numeric",
+                  minute: "numeric",
+                  second: "numeric",
+                }),
+                10
+              )}
             </s.TextDescription>
 
 
