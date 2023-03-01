@@ -273,26 +273,7 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              PUBLIC MINT OPEN in:
-            </s.TextDescription>
-
-
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 70,
-                //fontWeight: "bold",
-                color: "var(--primary)",
-              }}
-            >
-              {truncate(
-                new Date(timeRemaining).toLocaleString("en-GB", {
-                  hour: "numeric",
-                  minute: "numeric",
-                  second: "numeric",
-                }),
-                10
-              )}
+              PUBLIC MINT OPEN
             </s.TextDescription>
 
 
